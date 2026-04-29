@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Victory Dumaguete - Mission 2029</title>
+		<link rel="icon" href="https://victorydumaguete.org/images/favicon.ico" type="image/x-icon">
+
+    <!-- Stylesheet -->
+		<link rel="stylesheet" href="./css/mission2029.css">  
+		<link rel="stylesheet" href="./css/hero.css">  
+		<link rel="stylesheet" href="./css/navbar.css">  
+    <!-- Fallback Styles -->
+</head>
+<body>
+	<!-- NAVBAR -->
+	<nav>
+		<div class="nav-container">
+			<div class="nav-title">
+				<img src="https://res.cloudinary.com/dzpphtqox/image/upload/v1741697643/Building%20Projects/victory_logo_white_final.png">
+				<div>
+					<!-- <span><b style="color: #FFF;">Victory</b></span> -->
+					<!-- <span>Victory</span> -->
+				</div>
+			</div>
+			<div class="menu-container">
+				<a href="https://victorydumaguete.org/">Home</a>
+				<a href="https://victorydumaguete.org/about-us">About</a>
+				<a href="https://victorydumaguete.org/project">Building Project</a>
+				<a href="https://events.victorydumaguete.org/join-a-victory-group?fbclid=IwY2xjawEtGvRleHRuA2FlbQIxMAABHbR9SXV9zmcZtQRV5ZAT3suTQXm7EkJ3gs78DE8W8_8GQ1tRXz4Ie1W1fQ_aem_cUYC5YWKCSrXHo-H5QyFAw">Get Connected</a>
+				<a href="https://events.victorydumaguete.org/?fbclid=IwY2xjawEtGopleHRuA2FlbQIxMAABHS-xoNYYiAZ55L8-JJrEe9393ocUDz6NEbPFqDRH5SIKV-8NcoDo1-FvoQ_aem_vjHsVKYY3vdIALONu5esPg">Events</a>
+				<a href="https://home.victorydumaguete.org/pastoralcare">Pastoral Care</a>
+				<a href="https://victorydumaguete.org/podcast">Podcast</a>
+				<a href="https://victorydumaguete.org/contact">Contact</a>
+			</div>
+
+			<div class="nav-btn">
+				<a href="https://home.victorydumaguete.org/online-giving">
+					<button class="secondary">GIVE</button>
+				</a>
+			</div>
+
+
+			<div class="hamburger-container" onclick="openNav(1)">
+				<svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M3 7H21" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+					<path d="M3 12H21" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+					<path d="M3 17H21" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+				</svg>
+			</div>
+
+		</div>
+		<div class="nav-container-resp">
+			<div class="nav-container-resp-row">
+				<div class="nav-title blue">
+					<img src="https://res.cloudinary.com/dzpphtqox/image/upload/v1741397912/Building%20Projects/logolargeblue.png">
+					<div>
+						<!-- <span>Victory</span> -->
+						<!-- <span><b>Dumaguete</b></span> -->
+					</div>
+				</div>
+
+				<div class="close-container" onclick="openNav(2)">
+					<svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#354447" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M9.16998 14.83L14.83 9.17004" stroke="#354447" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M14.83 14.83L9.16998 9.17004" stroke="#354447" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</div>
+			</div>
+
+			<div class="nav-container-resp-row">
+				<a href="https://victorydumaguete.org/">
+					Home
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M10.74 15.53L14.26 12L10.74 8.46997" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</a>
+			</div>
+			<div class="nav-container-resp-row">
+				<a href="https://victorydumaguete.org/about-us">
+					About
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M10.74 15.53L14.26 12L10.74 8.46997" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</a>
+			</div>
+			<div class="nav-container-resp-row">
+				<a href="https://victorydumaguete.org/project">
+					<b>Building Project</b>
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M10.74 15.53L14.26 12L10.74 8.46997" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</a>
+			</div>
+			<div class="nav-container-resp-row">
+				<a href="https://events.victorydumaguete.org/join-a-victory-group?fbclid=IwY2xjawEtGvRleHRuA2FlbQIxMAABHbR9SXV9zmcZtQRV5ZAT3suTQXm7EkJ3gs78DE8W8_8GQ1tRXz4Ie1W1fQ_aem_cUYC5YWKCSrXHo-H5QyFAw">
+					Get Connected
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M10.74 15.53L14.26 12L10.74 8.46997" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</a>
+			</div>
+			<div class="nav-container-resp-row">
+				<a href="https://events.victorydumaguete.org/?fbclid=IwY2xjawEtGopleHRuA2FlbQIxMAABHS-xoNYYiAZ55L8-JJrEe9393ocUDz6NEbPFqDRH5SIKV-8NcoDo1-FvoQ_aem_vjHsVKYY3vdIALONu5esPg">
+					Events
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M10.74 15.53L14.26 12L10.74 8.46997" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</a>
+			</div>
+			<div class="nav-container-resp-row">
+				<a href="https://home.victorydumaguete.org/pastoralcare">
+					Pastoral Care
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M10.74 15.53L14.26 12L10.74 8.46997" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</a>
+			</div>
+			<div class="nav-container-resp-row">
+				<a href="https://victorydumaguete.org/podcast">
+					Podcast
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M10.74 15.53L14.26 12L10.74 8.46997" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</a>
+			</div>
+			<div class="nav-container-resp-row">
+				<a href="https://victorydumaguete.org/contact">
+					Contact
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M10.74 15.53L14.26 12L10.74 8.46997" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+				</a>
+			</div>
+
+			<div class="nav-container-resp-row" style="margin-top: 20px;"> 
+				<a href="https://home.victorydumaguete.org/online-giving">
+					<button class="primary">GIVE</button>
+				</a>
+			</div>
+				
+		</div>
+	</nav>
+
+	<!-- HERO SECTION -->
+	<div class="section-wrapper blue-gradiant-bg">
+		<div class="section-container">
+			<div class="hero-section">
+				<div class="hero-section-title-wrapper"> 
+					<img src="./images/logo.png" id="logo">
+					<h1 class="hero-section-title">LEBANON</h1> 
+					<div>
+						<a href="https://home.victorydumaguete.org/online-giving">
+							<button class="tertiary">
+									BE PART OF THE VISION
+								</button>
+							</a>
+					</div>
+				</div> 
+				<div class="bg-container">
+					<img src="./images/heroBG.png">
+				</div> 
+			</div>
+		</div>
+
+		<div class="section-line-wrapper">
+			<div class="section-line-container">
+				<div class="section-line-solid"></div> 
+				<div class="section-line-solid"></div>
+			</div>
+		</div>
+		<div class="section-line-wrapper2">
+			<div class="section-line-container2">
+				<div class="section-line-solid2"></div> 
+				<div class="section-line-solid2"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- FOOTER SECTION -->
+	<div class="section-wrapper footer">
+		<div class="section-container"> 
+			<div class="footer-row-wrapper">
+				<div class="footer-row-container">
+					<div>
+						<h5>Victory Dumaguete</h5>
+						<p><i>Honor God. Make Disciples.</i></p>
+					</div>
+				</div>
+				<div class="footer-row-container">
+					<p><b>Address:</b> Dumaguete Business Park, Calindagan, Dumaguete City 6200, Negros Oriental, Philippines</p>
+					<div>
+						<p><b>Phone:</b> +63 35 402 0531</p>
+						<p><b>Email:</b> dumaguete@victory.org.ph</p>
+					</div>
+				</div>
+				<div class="footer-row-container">
+					<div class="footer-col-container">
+						<a href="https://victorydumaguete.org/"><p>Home</p></a>
+						<a href="https://victorydumaguete.org/about-us"><p>About</p></a>
+						<a><p>Building Project</p></a>
+						<a href="https://events.victorydumaguete.org/join-a-victory-group?fbclid=IwY2xjawEtGvRleHRuA2FlbQIxMAABHbR9SXV9zmcZtQRV5ZAT3suTQXm7EkJ3gs78DE8W8_8GQ1tRXz4Ie1W1fQ_aem_cUYC5YWKCSrXHo-H5QyFAw"><p>Get Connected</p></a>
+						<a href="https://events.victorydumaguete.org/?fbclid=IwY2xjawEtGopleHRuA2FlbQIxMAABHS-xoNYYiAZ55L8-JJrEe9393ocUDz6NEbPFqDRH5SIKV-8NcoDo1-FvoQ_aem_vjHsVKYY3vdIALONu5esPg"><p>Events</p></a>
+						<a href="https://home.victorydumaguete.org/pastoralcare"><p>Pastoral Care</p></a>
+						<a href="https://victorydumaguete.org/podcast"><p>Podcast</p></a>
+					</div>
+				</div>
+				<div class="footer-row-container">
+					<div class="footer-col-container">
+						<a href="https://www.facebook.com/victorydumaguete"><p>Facebook</p></a>
+						<a href="https://www.instagram.com/victorydumaguete"><p>Instagram</p></a>
+						<a href="https://twitter.com/victorydgte"><p>Twitter</p></a>
+						<a href="https://open.spotify.com/show/3xjcwouZToXhdVyjw0f020?si=sX3WD2MvQK2xhagee0f94w"><p>Spotify</p></a>
+						<a href="https://www.youtube.com/channel/UCbQ1DjlPJM0_uPv0O3lVqFQ"><p>Youtube</p></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section-line-wrapper"> 
+			<div class="section-line-container">
+				<div class="section-line-solid"></div>
+				<div class="section-line-dashed"></div>
+				<div class="section-line-dashed"></div>
+				<div class="section-line-dashed"></div>
+				<div class="section-line-solid"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="section-wrapper footer section-top-line">
+		<div class="section-container"> 
+		<div class="footer-copyright-container">
+			<p>© 2026 Victory Dumaguete. All Rights Reserved</p>
+		</div>
+		</div>
+
+		<div class="section-line-wrapper"> 
+			<div class="section-line-container">
+				<div class="section-line-solid"></div>
+				<div class="section-line-dashed"></div>
+				<div class="section-line-dashed"></div>
+				<div class="section-line-dashed"></div>
+				<div class="section-line-solid"></div>
+			</div>
+		</div>
+	</div>
+
+    <!-- JavaScript -->
+
+	<!-- ========== NAVBAR SCRIPT ========== -->
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+		var title = document.querySelector(".hero-section-title");
+		var navbar = document.querySelector("nav");
+		var ticking = false;
+
+		function isElementInViewport(el) {
+				if (!el) return false; // Prevent errors if element doesn't exist
+				
+				var rect = el.getBoundingClientRect();
+				var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+				var windowWidth = window.innerWidth || document.documentElement.clientWidth;
+
+				return (
+						rect.top >= 0 &&
+						rect.left >= 0 &&
+						rect.bottom <= windowHeight &&
+						rect.right <= windowWidth
+				);
+		}
+
+		function handleScroll() {
+				if (!title || !navbar) return; // Safety check for older browsers
+				
+				if (isElementInViewport(title)) {
+						navbar.style.backgroundColor = "rgba(0, 0, 0, 0)";
+				} else {
+						navbar.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+				}
+		}
+
+		function onScrollOrResize() {
+				if (!ticking) {
+						requestAnimationFrame(function () {
+								handleScroll();
+								ticking = false;
+						});
+						ticking = true;
+				}
+		}
+
+		// Attach event listeners
+		window.addEventListener("scroll", onScrollOrResize);
+		window.addEventListener("resize", onScrollOrResize); // Handles viewport changes
+
+		// Run once on page load to set the correct navbar state
+		handleScroll();
+	});
+
+		
+		var hamburgerContainer = document.querySelector(".hamburger-container")
+		var closeContainer = document.querySelector(".close-container")
+		var navContainerResp = document.querySelector(".nav-container-resp")
+
+    function hideNav(){
+			var w = document.documentElement.clientWidth;
+			if (w >= 1000) {
+				closeContainer.style.display = 'none'
+				navContainerResp.style.display = 'none'
+				navContainerResp.style.opacity = '0'
+			}
+		}
+		window.addEventListener("resize", hideNav);
+
+
+		function openNav(index) {
+			if (index === 1) { 
+				closeContainer.style.display = 'block'
+				navContainerResp.style.display = 'flex'
+				setTimeout(() => {
+					navContainerResp.style.opacity = '1'
+				}, 100)
+			}
+			if (index === 2) {
+				closeContainer.style.display = 'none'
+				navContainerResp.style.opacity = '0'
+				setTimeout(() => {
+					navContainerResp.style.display = 'none'
+				}, 300)
+			}
+		}
+	</script>
+ 
+</body>
+</html>

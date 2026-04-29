@@ -1,0 +1,62 @@
+
+/* <!-- ========== NAVBAR STYLES ========== --> */ 
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 5;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .3s;
+}
+nav .nav-container {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	max-width: 1280px;
+	width: 100%;
+	padding: 20px;
+}
+nav .menu-container {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+}
+nav a{ color: #fff; font-weight: 100; font-size: 14px; }
+nav .nav-title { position: absolute; left: 20px; top: 3px; height: 52px; display: flex; align-items: center; gap: 10px; }
+nav .nav-title img { object-fit: contain; max-width: 30px;}
+nav .nav-title > div { display: flex; flex-direction: column; gap: 3px;}
+nav .nav-title > div span { font-size: 14px; font-weight: 200; color: #fff; } 
+nav .nav-btn { position: absolute; right: 20px; top: 3px; height: 52px; display: flex; flex-direction: column; justify-content: center;}
+nav .nav-btn button { padding: 6px 30px; }
+nav .close-container { display: none; cursor: pointer; transition: 0.3s;}
+nav .hamburger-container { display: none; cursor: pointer; transition: 0.3s;}
+nav .close-container:hover { transform: scale(1.1);}
+nav .hamburger-container:hover { transform: scale(1.1);}
+
+nav .nav-container-resp { transition: .3s; opacity: 0; overflow-y: auto; display: none; flex-direction: column; justify-content: flex-start; align-items: flex-start; position: fixed; gap: 20px; z-index: 6; top: 0; left: 0; height: 100vh; width: 100%; background-color: #fff; padding: 20px; }
+nav .nav-container-resp-row { display: flex; justify-content: space-between; align-items: flex-start; width: 100%; transition: .3s; }
+nav .nav-title.blue {position: relative; left: 0; margin-bottom: 20px; height: fit-content;}
+nav .nav-container-resp-row a{ transition: .3s;}
+nav .nav-container-resp-row a:hover {color: #2380BF; font-weight: 600;}
+nav .nav-container-resp-row a svg path { transition: .3s; }
+nav .nav-container-resp-row a:hover svg path { stroke-width: 1.5px; stroke: #2380BF; }
+
+
+@media only screen and (max-width: 1200px) { nav .menu-container { gap: 20px } }
+/* Ipad */
+@media only screen and (max-width: 1000px) {
+	.menu-container { display: none !important; }
+	.nav-btn { display: none !important; }
+	nav .nav-container { justify-content: space-between; align-items: center; padding: 4px 20px;}
+	nav .hamburger-container { display: block; }
+	nav a{ color: #354447; font-weight: 100; font-size: 1rem; width: 100%; display: flex; justify-content: space-between; align-items: center;}
+	nav .nav-title { position: relative; left: 0;}
+	nav .nav-title.blue span {color: #2380BF; font-size: 1.15rem;}
+	nav .nav-title.blue img { max-height: 40px; }
+	nav .nav-container-resp-row button { width: 100%; }
+}
+
