@@ -45,28 +45,34 @@
  
 }
 @media only screen and (max-width: 820px) {
-	.intro-section { padding: 200px 0 400px 0; justify-content: flex-start;}
+	.intro-section { padding: 200px 0 400px 0}
 	.intro-section h2 {font-size: 2rem;}
 	.intro-section p{ font-size: 1.2rem; margin-top: 10px; max-width: 700px;}
 	.intro-section button{ margin-top: 15px; font-size: 1rem;}
 	.intro-section img { margin-top: -60px; }
 
 	.intro-section .intro-section-bg img{
-		position: absolute; 
-		width: 1000px;
+		width: 850px;
+	}
+ 
+}
+@media only screen and (max-width: 700px) {
+	.intro-section { padding: 200px 0 300px 0}
+	.intro-section .intro-section-bg img{
+		width: 700px;
 	}
  
 }
 @media only screen and (max-width: 500px) {
-	.intro-section { padding: 50px 0 300px 0;  justify-content: flex-start;}
+	.intro-section { padding: 30px 0 250px 0;}
 	.intro-section h3 {font-size: 2.1rem; margin-bottom: -10px !important;}  
 	.intro-section h1 {font-size: 3.1rem;}
 	.intro-section p{ font-size: 1.1rem; margin-top: 10px;}
 	.intro-section button{ margin-top: 1rem; font-size: 1rem;}  
 	.intro-section-title-wrapper { padding: 0 20px; }
 
-	.intro-section .bg-container img{
-		position: absolute; 
+	.intro-section .intro-section-bg img{
+		width: 500px;
 	}
 }
 
