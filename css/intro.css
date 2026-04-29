@@ -32,20 +32,33 @@
 
 /* Ipad */
 @media only screen and (max-width: 1000px) {
-	.intro-section { padding: 100px 0 0 0; justify-content: flex-start;}
-	.intro-section h3 {font-size: 3.2rem; margin-bottom: -20px; }
-	.intro-section h1 {font-size: 4.2rem;}
+	.intro-section { padding: 200px 0 400px 0; justify-content: flex-start;}
+	.intro-section h2 {font-size: 2rem;}
 	.intro-section p{ font-size: 1.2rem; margin-top: 10px; max-width: 700px;}
 	.intro-section button{ margin-top: 15px; font-size: 1rem;}
 	.intro-section img { margin-top: -60px; }
 
-	.intro-section .bg-container img{
+	.intro-section .intro-section-bg img{
 		position: absolute; 
+		width: 1000px;
 	}
  
 }
 @media only screen and (max-width: 820px) {
-	.intro-section { padding: 120px 0 0 0;  justify-content: flex-start;}
+	.intro-section { padding: 200px 0 400px 0; justify-content: flex-start;}
+	.intro-section h2 {font-size: 2rem;}
+	.intro-section p{ font-size: 1.2rem; margin-top: 10px; max-width: 700px;}
+	.intro-section button{ margin-top: 15px; font-size: 1rem;}
+	.intro-section img { margin-top: -60px; }
+
+	.intro-section .intro-section-bg img{
+		position: absolute; 
+		width: 1000px;
+	}
+ 
+}
+@media only screen and (max-width: 500px) {
+	.intro-section { padding: 50px 0 300px 0;  justify-content: flex-start;}
 	.intro-section h3 {font-size: 2.1rem; margin-bottom: -10px !important;}  
 	.intro-section h1 {font-size: 3.1rem;}
 	.intro-section p{ font-size: 1.1rem; margin-top: 10px;}
@@ -55,18 +68,5 @@
 	.intro-section .bg-container img{
 		position: absolute; 
 	}
- 
-}
-@media only screen and (max-width: 500px) {
-	.intro-section { padding: 90px 0 0 0;  justify-content: flex-start;}
-	.intro-section h3 {font-size: 1.3rem; margin-bottom: -5px !important; margin-top: 0px !important;} 
-	.intro-section h1 {font-size: 2.3rem;}
-	.intro-section p { margin-top: 0px; font-size: 0.8rem; max-width: 250px;} 
-	.intro-section button{ margin-top: 0.5rem; border-radius: 8px; padding: 8px 20px !important; font-size: 0.8rem;} 
-	.intro-section-title-wrapper { padding: 0 20px; }
-	
-	.intro-section .bg-container img{
-		position: absolute; 
-	} 
 }
 
